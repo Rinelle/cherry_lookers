@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
+    <style>
+        .main-banner {
+        display: flex;
+        align-items: center;
+        }
+
+        .main-banner h1 {
+            font-size: 45px;
+            font-weight: 700, bold;
+            font-family: PT Root UI, Helvetica, sans-serif;
+            text-align: center;
+            position: absolute;
+        }
+
+        .boldtext {
+            color: #CDA434;
+            font-weight: bold;
+        }
+
+        .main-banner.image_block1 {
+            background-size: cover;
+        }
+
+        .main-banner.image_block2 {
+            background-size: cover;
+        }
+
+
+    </style>
 </head>
 <body>
-
+<div class="main-banner">
+    <h1>НОВАЯ <span class="boldtext">ЖЕНСКАЯ</span>
+        <p>КОЛЛЕКЦИЯ</p>
+    </h1>
+    <div class="image_block1">
+    <img src="/assets/images/girl_left.png" alt="girl_left">
+    </div>
+    <div class="image_block2">
+    <img src="/assets/images/girl_right.png" alt="girl_right">
+    </div>
+    <div class="banner-container">
+        <div class="button">
+            <div class="bottom_part">
+                <div class="RU"></div>
+                <div class="EN"></div>
+                <div class="social-network"></div>
+                <div class="question"></div>
+            </div>
+        </div>
+</div>
 </body>
 </html>

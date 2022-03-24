@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/base/_mixins.scss",
+        "../scss/base/_vars.scss",
+        "../scss/blocks/_header.scss",
+        "../scss/blocks/_footer.scss",
+        "../scss/blocks/_main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
