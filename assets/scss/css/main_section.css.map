@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,gBAAgB,EAAE,mCAAmC;CAExD;;AAED,AAAA,SAAS,CAAC;EACN,gBAAgB,EAAE,qCAAqC;CAC1D;;AAED,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,uCAAuC;CAE5D;;AAED,AAAA,aAAa,CAAC;EACV,gBAAgB,EAAE,8BAA8B;CACnD",
+    "sources": [
+        "../blocks/main_section.scss"
+    ],
+    "names": [],
+    "file": "main_section.css"
+}
