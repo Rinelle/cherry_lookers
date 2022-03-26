@@ -1,12 +1,261 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- <style>
+        @font-face {
+            font-family: 'PT-Root_UI';
+            src: url(./assets/fonts/PT-Root-UI_Regular.ttf);
+        }
 
+        footer {
+            font-family: 'PT-Root_UI';
+        }
+
+        footer .footer__block {
+            display: contents;
+            margin-top: 31px;
+            margin-left: 13%;
+            margin-right: 15%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) 575px;
+            font-size: 15px;
+            line-height: 150%;
+        }
+
+        .footer__menu-links,
+        .footer__menu-different {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .footer__menu-links a,
+        .footer__menu-different a {
+            color: #373737;
+            text-decoration: none;
+        }
+
+        .footer__menu-links a:nth-last-child(n+2),
+        .footer__menu-different a:nth-last-child(n+2) {
+            padding-bottom: 20px;
+        }
+
+        .footer__menu-contact {
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        .footer__menu-contacts {
+            font-weight: bold;
+        }
+
+        .footer__menu-contact-email {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .footer_menu-window {
+            max-width: 575px;
+        }
+
+        .footer__menu-window-novelty_text {
+            font-weight: bold;
+        }
+
+        .footer_menu-window-novelty_input-email {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+
+        .footer_menu-window-novelty_input-email .email {
+            width: 313px;
+            height: 40px;
+            padding-left: 20px;
+            color: #A5A5A5;
+            border: 1px solid black;
+        }
+
+        .footer_menu-window-novelty_input-email .but_send {
+            width: 212px;
+            height: 46px;
+            background: #373737;
+            color: #fff;
+        }
+
+        .payment {
+            width: 48px;
+            height: 27px;
+            border: 1px solid #373737;
+        }
+
+        .footer__menu-window-confidential {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 65px;
+        }
+
+        @media (min-width: 950px) and (max-width: 1400px) {
+
+            .footer__menu-links,
+            .footer__menu-different {
+                display: none;
+            }
+
+            footer .footer__block {
+                grid-template-columns: 30% 70%;
+            }
+
+            .footer__menu-contacts {
+                display: grid;
+                align-items: end;
+                justify-items: start;
+            }
+
+            .footer__menu-window-confidential {
+                flex-direction: column;
+            }
+
+            .footer_menu-window-novelty_input-email {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .but_send {
+                margin-top: 10px;
+            }
+        }
+
+        @media (min-width: 375px) and (max-width: 949px) {
+
+            .footer__menu-links,
+            .footer__menu-different {
+                display: none;
+            }
+
+            footer .footer__block {
+                height: 350px;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                justify-content: flex-end;
+                padding-top: 32px;
+                margin: 0 15px;
+            }
+
+            .footer_menu-window-novelty_input-email {
+
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer_menu-window-novelty_input-email .email {
+                width: 300px;
+            }
+
+            .footer_menu-window-novelty_input-email .but_send {
+                width: 325px;
+                margin-top: 15px;
+            }
+
+            .footer__menu-window-confidential span {
+                display: none;
+            }
+
+            .payment {
+                width: 56px;
+                height: 30px;
+            }
+
+            .footer__menu-contacts {
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(2, 150px);
+                grid-auto-rows: minmax(30px, auto);
+            }
+
+            .footer__menu-contact-email {
+                padding: 0px;
+            }
+
+            .footer__menu-contacts-network {
+                padding-top: 15px;
+            }
+
+            .footer__menu-window-confidential {
+                position: fixed;
+                margin-top: 135px;
+            }
+        }
+    </style> -->
+</head>
+
+<body>
+    <footer>
+        <div class="footer__block">
+            <div class="footer__menu-links">
+                <a href="main.html">Главная</a>
+                <a href="man.html">Мужская коллекция</a>
+                <a href="man.html">Женская коллекция</a>
+                <a href="table.html">Таблица размеров</a>
+                <a href="contacts.html">О нас</a>
+            </div>
+
+            <div class="footer__menu-different">
+                <a href="autoriz.html">Вход / Регистрация</a>
+                <a href="favorites.html">Избранное</a>
+                <a href="basket.html">Корзина</a>
+                <a href="exchange.html">Обмен / Возврат</a>
+            </div>
+
+            <div class="footer__menu-contacts">
+                <div class="footer__menu-contact-phone">
+                    <span>
+                        +7 (999) 999-99-99
+                    </span>
+                </div>
+                <div class="footer__menu-contact-email">
+                    <span>
+                        mail@gmail.com
+                    </span>
+                </div>
+                <div class="footer__menu-contacts-network">
+                    <img src="./assets/images/vk.png" alt="vk">
+                    <img src="./assets/images/facebook.png" alt="bf">
+                    <img src="./assets/images/instagram.png" alt="im">
+                </div>
+            </div>
+
+            <div class="footer__menu-window">
+                <div classs="footer__menu-window-novelty">
+                    <div class="footer__menu-window-novelty_text"><span>Хочешь быть в курсе новинок?</span></div>
+                    <div class="footer_menu-window-novelty_input-email">
+                        <input value="Ваша почта" class="email">
+                        <form enctype="multipart/form-data" method="post">
+                            <input type="submit" value="ОТПРАВИТЬ" class="but_send">
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__menu-window-confidential">
+                    <span>Политика конфиденциальности</span>
+                    <div class="footer__menu-window-confidential_payment-windows">
+                        <input value="" class="payment">
+                        <input value="" class="payment">
+                        <input value="" class="payment">
+                        <input value="" class="payment">
+                        <input value="" class="payment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
