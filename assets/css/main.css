@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "PT-Root_UI";
+  font-family: "$font-footer";
   src: url(./assets/fonts/PT-Root-UI_Regular.ttf);
 }
-footer {
-  font-family: "PT-Root_UI";
+.footer__block {
+  font-family: "$font-footer", sans-serif;
 }
 
 footer .footer__block {
