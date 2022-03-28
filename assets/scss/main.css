@@ -7,10 +7,10 @@
 }
 
 footer .footer__block {
-  display: contents;
-  margin-top: 31px;
-  margin-left: 13%;
-  margin-right: 15%;
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 31px 60px;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(3, 1fr) 575px;
   font-size: 15px;
@@ -116,11 +116,15 @@ footer .footer__block {
     align-items: center;
   }
 
+  footer .footer__menu-window-novelty_text {
+    text-align: center;
+  }
+
   .but_send {
     margin-top: 10px;
   }
 }
-@media (min-width: 375px) and (max-width: 949px) {
+@media (max-width: 949px) {
   .footer__menu-links,
 .footer__menu-different {
     display: none;
