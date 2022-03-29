@@ -1,0 +1,75 @@
+.back-discount {
+    background-image: url(../images/discount-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.back-man {
+    background-image: url(../images/men-collection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+    max-width: 694px;
+    margin-right: 5px;
+}
+
+.back-woman {
+    background-image: url(../images/women-collection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+    max-width: 694px;
+    margin-left: 5px;
+}
+
+
+.back-popular {
+    background-image: url(../images/popular.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.popular_text1 {
+    padding: 10px;
+}
+
+.discount_text {
+    padding: 10px;
+}
+
+.container {
+    font-family: PT Root UI, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.collection-text {
+    color: #373737;
+    ;
+}
+
+.height1 {
+    height: 40rem;
+
+}
+
+.height2 {
+    height: 20rem;
+}
+
+.br0 {
+    border-radius: 0px !important;
+}
