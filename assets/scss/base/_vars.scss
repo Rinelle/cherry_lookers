@@ -1,0 +1,11 @@
+
+$font-footer: 'PT-Root_UI';
+
+@font-face {
+    font-family: '$font-footer';
+    src: url(./assets/fonts/PT-Root-UI_Regular.ttf);
+}
+
+.footer__block{
+    font-family: '$font-footer', sans-serif;
+}
