@@ -1,4 +1,4 @@
-.back-discount {
+.main_section__discount {
     background-image: url(../images/discount-pic.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,7 +10,7 @@
 
 }
 
-.back-man {
+.main_section__man {
     background-image: url(../images/men-collection.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@
     margin-right: 5px;
 }
 
-.back-woman {
+.main_section__woman {
     background-image: url(../images/women-collection.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +29,7 @@
 }
 
 
-.back-popular {
+.main_section__popular {
     background-image: url(../images/popular.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -41,11 +41,11 @@
     color: #FFFFFF;
 }
 
-.popular_text1 {
+.main_section__popular_text {
     padding: 10px;
 }
 
-.discount_text {
+.main_section__discount_text {
     padding: 10px;
 }
 
@@ -56,17 +56,16 @@
     font-weight: 700;
 }
 
-.collection-text {
+.main_section__collection-text {
     color: #373737;
-    ;
 }
 
-.height1 {
+.main_section__height1 {
     height: 40rem;
 
 }
 
-.height2 {
+.main_section__height2 {
     height: 20rem;
 }
 
