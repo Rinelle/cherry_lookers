@@ -1,0 +1,50 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 57px;
+
+    & > div {
+        flex-basis: calc(100%/2 - 52px);
+    }
+
+    .logo {
+        text-align: center;
+        flex-basis: 0;
+    }
+
+    &__nav {
+        display: flex;
+
+        .menu-icon {
+            margin-right: 40px;
+        }
+
+        nav {
+
+            ul {
+                display: flex;
+
+                li {
+                    &:not(:last-child) {
+                        margin-right: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: flex-end;
+
+        &-item {
+
+            &:not(:last-child) {
+                margin-right: 40px;
+            }
+        }
+    }
+    
+}

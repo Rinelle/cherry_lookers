@@ -5,31 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./assets/scss/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <title>Домашняя страница</title>
 </head>
 
 <body>
     <header class="header">
-    <img id="logo" src="/img/header/Меню.png">
-    <header class="header">
-        <div class="header-button"><img src="img/header/Слой 2.png"></div>
-        <nav>
-<a class="container-xl">
-            <div class="row header-titles">
-                <div class="col-md-3 hideblock">МУЖСКАЯ КОЛЛЕКЦИЯ</div>
-                <div class="col-md-3 hideblock">ЖЕНСКАЯ КОЛЛЕКЦИЯ</div>
-                <div class="col-md-3 hideblock">АКЦИЯ</div>
-                <div class="col-xs-12 col-sm-12 col-md-3">ЗАКАЗАТЬ ЗВОНОК</div>
-            </div> 
-        </a>            
-        </nav>
-                <div class="col-xs-12 col-sm-12 col-md-3 flex-column p-0">
-                    <button class="header-btnblue"><img src="img/header/Search.png" alt="icon"></button>
-                    <button class="header-btnblue"><img src="img/header/Heart.png" alt="icon"></button>
-                    <button class="header-btnblue"><img src="img/header/Shop.png" alt="icon"></button>
-                    <button class="header-btnblue"><img src="img/header/Profile.png" alt="icon"></button>
-                  </div>
+        <div class="header__nav">
+            <div class="menu-icon">
+                <svg width="49" height="27" viewBox="0 0 49 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="48.9858" y="2.9624" width="48.41" height="2" transform="rotate(-180 48.9858 2.9624)" fill="#373737"/>
+                    <rect x="48.9858" y="14.9624" width="48.41" height="2" transform="rotate(-180 48.9858 14.9624)" fill="#373737"/>
+                    <rect x="48.9858" y="26.9624" width="48.41" height="2" transform="rotate(-180 48.9858 26.9624)" fill="#373737"/>
+                </svg>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Мужская коллекция</a></li>
+                    <li><a href="">Женская коллекция</a></li>
+                    <li><a href="">Акции</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo">
+            <svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.75185 45.9933C6.13155 45.9933 7.2905 45.9933 8.61502 45.9933C8.61502 30.653 8.61502 15.3952 8.61502 0C12.5886 0 16.4242 0 20.4253 0C20.4253 15.2853 20.4253 30.5705 20.4253 45.9657C29.3658 45.9657 38.1683 45.9657 47.0536 45.9657C47.0536 44.7561 47.0536 43.5465 47.0536 42.1719C39.5204 42.1719 32.0424 42.1719 24.5092 42.1719C24.5092 38.2132 24.5092 34.4193 24.5092 30.543C33.3118 30.543 42.1143 30.543 50.9996 30.543C50.9996 31.7527 50.9996 32.9623 50.9996 34.3094C43.4664 34.3094 35.9884 34.3094 28.4276 34.3094C28.4276 35.6565 28.4276 36.8661 28.4276 38.2406C29.0071 38.2406 29.5314 38.2406 30.0832 38.2406C36.623 38.2406 43.1352 38.2681 49.675 38.2132C50.8064 38.2132 51.1651 38.5156 51.1376 39.6977C51.0548 43.0792 51.1099 46.4606 51.1099 49.9245C39.5204 49.9245 28.0965 49.9245 16.5621 49.9245C16.5621 34.5568 16.5621 19.299 16.5621 3.9313C15.2376 3.9313 14.0235 3.9313 12.6714 3.9313C12.6714 19.2166 12.6714 34.5018 12.6714 49.897C8.67021 49.897 4.80704 49.897 0.861084 49.897C0.861084 33.2922 0.861084 16.7148 0.861084 0.0549863C2.13041 0.0549863 3.34455 0.0549863 4.75185 0.0549863C4.75185 15.2853 4.75185 30.598 4.75185 45.9933Z" fill="#373737"/>
+                <path d="M50.972 26.3093C42.1695 26.3093 33.3946 26.3093 24.5369 26.3093C24.5369 17.567 24.5369 8.85226 24.5369 0C33.2842 0 42.0591 0 50.972 0C50.972 8.74229 50.972 17.4846 50.972 26.3093Z" fill="#373737"/>
+            </svg>
+        </div>
+        <div class="header__actions">
+            <div class="header__actions-item header__actions-question">
+                <a href="">Заказать звонок</a>
+            </div>
+            <div class="header__actions-item">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10.5571" cy="10.9344" r="8.96526" transform="rotate(-90 10.5571 10.9344)" stroke="#373737" stroke-width="2"/>
+                    <rect width="2" height="12.7094" transform="matrix(0.707107 -0.707106 0.707108 0.707106 16.4733 17.9688)" fill="#373737"/>
+                </svg>
+            </div>
+            <div class="header__actions-item">
+                <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.4018 0.517083C17.2446 0.50599 15.1938 1.41765 13.8042 3.00549C12.4234 1.4068 10.3669 0.492545 8.20668 0.517083C4.15709 0.517083 0.874268 3.67605 0.874268 7.57286C0.874268 14.2507 12.9735 25.0606 13.4645 25.3126C13.6626 25.44 13.921 25.44 14.1192 25.3126C14.6102 25.0606 26.7343 14.3452 26.7343 7.57286C26.7343 3.67605 23.4514 0.517083 19.4018 0.517083ZM13.7918 24.0526C11.8932 22.9817 2.18364 12.9908 2.18364 7.57286C2.18364 4.37193 4.88025 1.77699 8.20675 1.77699C10.2438 1.75125 12.1501 2.73996 13.2478 4.3914C13.4707 4.68713 13.9005 4.75303 14.2079 4.53851C14.2666 4.49752 14.3182 4.4479 14.3607 4.3914C16.1812 1.71236 19.9139 0.960646 22.698 2.71241C24.4024 3.78481 25.4282 5.61327 25.4248 7.57279C25.4249 13.0537 15.6904 23.0131 13.7918 24.0526Z" fill="#373737" stroke="#373737"/>
+                </svg>
+            </div>
+            <div class="header__actions-item">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.40531 9.05766C4.48005 8.5695 4.89995 8.20898 5.3938 8.20898H21.9028C22.3967 8.20898 22.8166 8.56949 22.8913 9.05766L25.2214 24.2781C25.3141 24.8836 24.8455 25.4294 24.2329 25.4294H3.06373C2.45114 25.4294 1.98255 24.8836 2.07525 24.2781L4.40531 9.05766Z" stroke="#373737" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M9.86292 10.8161V5.28074C9.86292 3.19013 11.5577 1.49536 13.6483 1.49536C15.7389 1.49536 17.4337 3.19013 17.4337 5.28074V10.8161" stroke="#373737" stroke-width="2"/>
+                </svg>                    
+            </div>
+            <div class="header__actions-item">
+                <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.61257 24.8931C2.11366 19.9292 6.30476 16.0547 11.4008 16.0547H15.5857C20.6817 16.0547 24.8728 19.9292 25.3739 24.8931H1.61257Z" stroke="#373737" stroke-width="2"/>
+                    <path d="M18.2437 6.49694C18.2437 9.6288 16.0098 11.9624 13.4931 11.9624C10.9764 11.9624 8.74255 9.6288 8.74255 6.49694C8.74255 3.36508 10.9764 1.03149 13.4931 1.03149C16.0098 1.03149 18.2437 3.36508 18.2437 6.49694Z" stroke="#373737" stroke-width="2"/>
+                </svg>                    
+            </div>
+        </div>
     </header>
 </body>
