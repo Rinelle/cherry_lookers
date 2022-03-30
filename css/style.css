@@ -1,0 +1,34 @@
+.row header-titles {
+    text-decoration: none;
+}
+
+.container-xl {
+    color: black;
+    padding: 4px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+#container-xl.col-md-3hideblock {
+    color: yellow;
+}
+
+header .col-xs-12 col-sm-12 col-md-3 {
+    font-weight: normal;
+}
+#logo {
+    width: 60px;
+    position: absolute;
+    top: 50px;
+}
+
+
+.LOGO {
+  width: auto;
+  height: auto;
+  float:left;
+  padding:22.5px 0px 0px 10px;
+}
+
+
