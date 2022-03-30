@@ -6,82 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мужская коллекция</title>
-    <style>
-        .wrapper {
-            max-width: 1420px;
-            margin: 0 auto;
-            font-family: "PT Root UI", sans-serif;
-            src: url(./assets/fonts/PT-Root-UI_Bold.ttf);
-        }
-
-        .banner-registr__img {
-            position: relative;
-        }
-
-        .banner-registr__text {
-            position: absolute;
-            top: 32%;
-            left: 36%;
-            text-align: center;
-            font-size: 45px;
-            line-height: 70px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .banner-registr__text .text-color {
-            color: #CDA434;
-        }
-
-        .banner-registr__text .but_reg {
-            width: 212px;
-            height: 48px;
-            border: 2px solid #fff;
-            font-size: 15px;
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            font-weight: 700;
-        }
-
-        /* form */
-        .search-form {
-            display: grid;
-            grid-template-columns: 453px 333px 333px 212px;
-            grid-template-rows: 56px 56px;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/scss/main.css">
 </head>
 
 <body>
     <div class="wrapper">
         <div class="search-form">
             <span class="search-form__title">не нашел то, что искал?</span>
-            <p class="search-form__text">Просто оставь свои данные и добавь комментарий, если это необходимо. Мы
+            <p class="search-form__text">Просто оставь свои данные и добавь комментарий,</br> если это необходимо. Мы
                 свяжемся с тобой в течение
                 суток.</p>
             <input value="Вашe имя" class="search-form__name">
             <input value="Ваша почта" class="search-form__email">
-            <input value="Комментарий" class="search-form__comment">
-            <p class="search-form__star-tetx">*не обязательное поле для заполнения</p>
+            <textarea name="Комментарий*" class="search-form__comment">Комментарий*</textarea>
+            <p class="search-form__star-text">*не обязательное поле для заполнения</p>
             <form enctype="multipart/form-data" method="post">
                 <input type="submit" value="ОТПРАВИТЬ" class="search-form__but_send">
             </form>
-
-            <div class="banner-registr">
-                <div class="banner-registr__img">
-                    <img src="./assets/scss/images/regis-banner.jpg">
-                    <div class="banner-registr__text">
-                        <span class="text-color">скидка 10%</span></br>
-                        <span>за регистрацию</span>
-                        <form enctype="multipart/form-data" method="post">
-                            <input type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ" class="but_reg">
-                        </form>
-                    </div>
-                </div>
-
-            </div>
         </div>
+        <div class="banner-registr">
+            <div class="banner-registr__img">
+                <img src="./assets/scss/images/regis-banner.jpg">
+                <div class="banner-registr__text">
+                    <span class="text-color">скидка 10%</span></br>
+                    <span>за регистрацию</span>
+                    <form enctype="multipart/form-data" method="post">
+                        <input type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ" class="but_reg">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
 </body>
 
 </html>
