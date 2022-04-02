@@ -21,7 +21,6 @@
   background-position: center;
   height: 40rem;
   max-width: 694px;
-  padding-right: 5px;
 }
 
 .main_section__woman {
@@ -30,7 +29,6 @@
   background-position: center;
   height: 40rem;
   max-width: 694px;
-  padding-left: 5px;
 }
 
 .main_section__popular {
@@ -88,19 +86,15 @@
 @media screen and (max-width: 768px) {
   .main_section__man {
     background-image: url(../images/men.jpg);
-    background-repeat: no-repeat;
-    height: auto;
     height: 20rem;
   }
   .main_section__woman {
     background-image: url(../images/women-collection-mobile.jpg);
-    background-repeat: no-repeat;
     height: 20rem;
   }
   .main_section__popular {
     background-image: url(../images/popular-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: 89%;
+    min-width: 360px;
     height: 20rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -121,10 +115,14 @@
     background-image: url(../images/discount-pic-mobile.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    max-height: 20rem;
+    height: 20rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -132,6 +130,32 @@
         -ms-flex-align: center;
             align-items: center;
     color: #FFFFFF;
+  }
+  .main_section__collection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+  }
+  .main_section__men-text {
+    text-align: center;
+  }
+  .main_section__woman-text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center;
+  }
+  .main_section__man {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .main_section__woman {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
 }
 /*# sourceMappingURL=main_section.css.map */
