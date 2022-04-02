@@ -21,7 +21,7 @@
   background-position: center;
   height: 40rem;
   max-width: 694px;
-  margin-right: 5px;
+  padding-right: 5px;
 }
 
 .main_section__woman {
@@ -30,7 +30,7 @@
   background-position: center;
   height: 40rem;
   max-width: 694px;
-  margin-left: 5px;
+  padding-left: 5px;
 }
 
 .main_section__popular {
@@ -83,5 +83,55 @@
 
 .br0 {
   border-radius: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .main_section__man {
+    background-image: url(../images/men.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    height: 20rem;
+  }
+  .main_section__woman {
+    background-image: url(../images/women-collection-mobile.jpg);
+    background-repeat: no-repeat;
+    height: 20rem;
+  }
+  .main_section__popular {
+    background-image: url(../images/popular-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 89%;
+    height: 20rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+  }
+  .main_section__discount {
+    background-image: url(../images/discount-pic-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-height: 20rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+  }
 }
 /*# sourceMappingURL=main_section.css.map */

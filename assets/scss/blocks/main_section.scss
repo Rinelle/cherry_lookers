@@ -16,7 +16,7 @@
     background-position: center;
     height: 40rem;
     max-width: 694px;
-    margin-right: 5px;
+    padding-right: 5px;
 }
 
 .main_section__woman {
@@ -25,7 +25,7 @@
     background-position: center;
     height: 40rem;
     max-width: 694px;
-    margin-left: 5px;
+    padding-left: 5px;
 }
 
 
@@ -58,6 +58,7 @@
 
 .main_section__collection-text {
     color: #373737;
+
 }
 
 .main_section__height1 {
@@ -71,4 +72,46 @@
 
 .br0 {
     border-radius: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .main_section__man {
+        background-image: url(../images/men.jpg);
+        background-repeat: no-repeat;
+        height: auto;
+        height: 20rem;
+    // max-width: 694px;
+}
+.main_section__woman {
+    background-image: url(../images/women-collection-mobile.jpg);
+    background-repeat: no-repeat;
+    height: 20rem;
+    // max-width: 694px;
+
+}
+
+.main_section__popular {
+    background-image: url(../images/popular-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 89%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.main_section__discount {
+    background-image: url(../images/discount-pic-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
 }
