@@ -14,10 +14,8 @@ body {
   max-width: 1420px;
   margin: 0 auto;
   font-family: "PT Root UI", sans-serif;
-  src: url(./assets/fonts/PT-Root-UI_Bold.ttf);
 }
 
-/* form */
 .search-form {
   box-sizing: border-box;
   display: grid;
@@ -76,7 +74,7 @@ body {
 }
 
 .banner-registr {
-  background: url(/cherry/assets/scss/images/regis-banner.jpg) center no-repeat;
+  background: url(./images/regis-banner.jpg) center no-repeat;
   background-size: contain;
   height: 636px;
 }
@@ -162,7 +160,7 @@ body {
 }
 @media (max-width: 800px) {
   .banner-registr {
-    background: url(/cherry/assets/scss/images/Rectangle\ 1124.jpg) center no-repeat;
+    background: url(./images/regis_mini.jpg) center no-repeat;
     background-size: contain;
     height: 314px;
     margin-left: 15px;
