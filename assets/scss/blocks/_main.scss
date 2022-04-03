@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.slider {
+    font-family: 'PT Root UI';
+    font-style: normal;
+}
+.heart:active {
+    color: red;
+    transition: color 0s;
+}
+
+@media only screen and (min-width: 450px) {
+    .col {
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .col {
+        width: 33.333%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .col {
+        width: 25%;
+    }
+}

@@ -1,0 +1,104 @@
+.popular {
+  width: 293px;
+  height: 41px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 150%;
+}
+
+.card {
+  width: 212px;
+  height: 360px;
+}
+
+.card-img-top {
+  width: 211.83px;
+  height: 283px;
+}
+
+.btn {
+  margin-top: 160px;
+  margin-left: 0px;
+}
+
+.prise {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.prise {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.last_size {
+  color: red;
+}
+
+.heart {
+  font-size: 30px;
+  text-align: right;
+  color: #c0bdbd;
+  padding: 0.2rem 0.2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  outline: none;
+  -webkit-transition: color 9999999s;
+  transition: color 9999999s;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.slider {
+  font-family: 'PT Root UI';
+  font-style: normal;
+}
+
+.heart:active {
+  color: red;
+  -webkit-transition: color 0s;
+  transition: color 0s;
+}
+
+@media only screen and (min-width: 450px) {
+  .col {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col {
+    width: 33.333%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .col {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
