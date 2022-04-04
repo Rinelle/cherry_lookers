@@ -1,0 +1,133 @@
+.main_section__discount {
+    background-image: url(../images/discount-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.main_section__man {
+    background-image: url(../images/men-collection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 694px;
+    margin-right: 5px;
+}
+
+.main_section__woman {
+    background-image: url(../images/women-collection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 694px;
+    margin-left: 5px;
+}
+
+
+.main_section__popular {
+    background-image: url(../images/popular.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.main_section__popular_text,
+.main_section__discount_text {
+    padding: 10px;
+}
+
+
+.container {
+    font-family: PT Root UI, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main_section__collection-text {
+    color: #373737;
+
+}
+
+.main_section__height1 {
+    height: 40rem;
+
+
+}
+
+.main_section__height2 {
+    height: 20rem;
+
+}
+
+.br0 {
+    border-radius: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .main_section__man {
+        background-image: url(../images/men.jpg);
+        margin-right: 0px;
+    }
+
+    .container {
+        font-size: 24px;
+    }
+
+    .main_section__height1,
+    .main_section__height2 {
+        height: 20rem;
+    }
+
+    .main_section__woman {
+        background-image: url(../images/women-collection-mobile.jpg);
+        margin-left: 0px;
+    }
+
+    .main_section__popular {
+        background-image: url(../images/popular-mobile.jpg);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .main_section__discount {
+        background-image: url(../images/discount-pic-mobile.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .main_section__collection {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .main_section__men-text {
+        text-align: center;
+    }
+
+    .main_section__woman-text {
+        order: 1;
+        text-align: center;
+    }
+
+    .main_section__man {
+        order: 0;
+    }
+
+    .main_section__woman {
+        order: 3;
+    }
+}
